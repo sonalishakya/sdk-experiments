@@ -53,7 +53,7 @@ function constructAppUri(domain, params, targetApp) {
 
 // Function to generate a Play Store search URL
 function triggerPlaystoreSearch() {
-    const searchString = "ondc";
+    const searchString = "beckn";
     return `http://play.google.com/store/search?q=${searchString}&c=apps`;
 }
 
