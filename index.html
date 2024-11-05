@@ -7,6 +7,29 @@
 </head>
 <body>
     <h1>Enter Beckn Link to Redirect</h1>
+    <form id="becknForm">
+        <label for="becknUrl">Beckn URL:</label>
+        <input type="text" id="becknUrl" name="becknUrl" required placeholder="beckn://ondc?...">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="adapter.js"></script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beckn Link Redirect</title>
+</head>
+<body>
+    <h1>Enter Beckn Link to Redirect</h1>
     <form action="/process" method="POST">
         <label for="becknUrl">Beckn URL:</label>
         <input type="text" id="becknUrl" name="becknUrl" required placeholder="beckn://ondc?...">
@@ -26,8 +49,10 @@
 	    Redirect using magicpin:// URI
 	</a>
     </form>
+
+    <script src="adapter.js"></script>
 </body>
-</html>
+</html> -->
 
 
 
