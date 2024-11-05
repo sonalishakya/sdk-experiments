@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const url = require('url');
 const app = express();
 
 // Middleware to handle URL-encoded form data
@@ -96,7 +97,8 @@ app.post('/process', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Adapter server running on port ${PORT}`);
 });
